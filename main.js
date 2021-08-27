@@ -1,9 +1,3 @@
-/*Simular una carrera entre dos corredores con la probabilidad de avance descrita abajo en una pista de 100 cuadros
-Ir marcando en cada avance la posición de los corredores, al final decir quien gano o si hubo empate.
-Probabilidades
-1/6    3 cuadros             
-2/6    1 cuadros              (1    2)   3  ( 4   5   6)
-3/6    2 cuadros*/
 import Dice from './dice.js';
 import Participant from './participants.js';
 
@@ -41,14 +35,6 @@ while(position < 100){
     } else {
         console.log("Molly ganó la carrera");
     }
-    
-    /*if(p1.getPosition() >= 100 && p2.getPosition() < 100){
-        console.log("Simon ganó la carrera");
-    } else if(p2.getPosition() >= 100 && p1.getPosition() < 100){
-        console.log("Molly ganó la carrera");
-    } else if(p1.getPosition() >= 100 && p2.getPosition() >= 100){
-        console.log("Empate");
-    }*/
 }
 
 
